@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SensorDemo</string>
+    <string name="get_sensor_data">采集传感器数据</string>
+    <string name="sensor_applicat">传感器应用</string>
+    <string name="texto_internal">内部传感器:</string>
+    <string name="sensorType">SENSOR TYPE</string>sensorType
+    <string name="sensorData">SENSOR DATA</string>
+</resources>

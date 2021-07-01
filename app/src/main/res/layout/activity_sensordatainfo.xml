@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SensorCollectAvtivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_Internal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_internal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:id="@+id/accTypeView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sensorType" />
+
+        <TextView
+            android:id="@+id/accDataView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sensorData" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:id="@+id/lightTypeView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sensorType" />
+
+        <TextView
+            android:id="@+id/lightDataView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sensorData" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+    </LinearLayout>
+</ScrollView>
